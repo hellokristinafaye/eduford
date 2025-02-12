@@ -154,5 +154,14 @@ h3 {
 .course-col:hover {
     box-shadow: 0 0 20px 0px rgba(0,0,0,.2);
 }
-/* good stopping point for EOD. next is media query for Courses section */
+
+/* Media Queries for Courses Section Start */
+@media (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Media Queries for Courses Section End */
+
 /* Course Section End */
