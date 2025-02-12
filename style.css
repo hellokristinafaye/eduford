@@ -311,6 +311,18 @@ h3 {
     }
 }
 /* media query for Call to Action Section End */
-
 /* Call To Action Section End */
 
+/* Footer Section Start */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* Footer Section End */
