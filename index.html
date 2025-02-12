@@ -26,8 +26,8 @@
             <a href="index.html" class="">
                 <img src="images/logo.png" alt="" class="">
             </a>
-            <div class="nav-links">
-                <i class="fa-solid fa-xmark"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onClick="hideMenu()"></i>
                 <ul class="">
                     <li class=""><a href="#" class="">HOME</a></li>
                     <li class=""><a href="#" class="">ABOUT</a></li>
@@ -36,7 +36,7 @@
                     <li class=""><a href="#" class="">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" onClick="showMenu()"></i>
         </nav>
 
         <div class="text-box">
@@ -50,5 +50,6 @@
     
     <!-- Header Section End -->
     
+    <script src="script.js"></script>
 </body>
 </html>
