@@ -135,6 +135,6 @@ p {
 .row {
     margin-top: 5%;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 /* Course Section End */
