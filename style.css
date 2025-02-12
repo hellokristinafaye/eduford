@@ -213,3 +213,13 @@ h3 {
 }
 
 /* Campus Section End */
+
+/* Facilities Section Start */
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Facilities Section End */
