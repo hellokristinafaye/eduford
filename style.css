@@ -161,7 +161,23 @@ h3 {
         flex-direction: column;
     }
 }
-
 /* Media Queries for Courses Section End */
 
 /* Course Section End */
+
+/* Campus Section Start */
+.campus {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Campus Section End */
