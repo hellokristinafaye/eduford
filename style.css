@@ -277,4 +277,16 @@ h3 {
 .testimonial-col .fa-regular {
     color: #f44336
 }
+/* media query for testimonials section start */
+@media(max-width: 700px) {
+    .testimonial-col img {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+/* media query for testimonials section end */
+
 /* Testimonials Section End */
+
+
+
