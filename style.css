@@ -91,7 +91,7 @@ nav .fa-solid {
         display: block;
     }
     .nav-links {
-        position: absolute;
+        position: fixed;
         background: #f44336;
         height: 100vh;
         width: 200px;
@@ -451,6 +451,12 @@ h3 {
     .sub-header h1 {
         font-size: 24px;
     }
+    /* diy rule b/c my email was too wide for the small screen, it caused a horizontal scroll.
+    but now it becomes small.  We had to FIND how to target this element, ended up using a custom
+    class for it and yay it works!  */
+    .contact-col div .email{
+        font-size: 16px;
+     }
 }
 /* Blog Page End */
 
@@ -499,5 +505,8 @@ h3 {
     margin-bottom: 17px;
     outline: none;
     border: 1px solid #ccc; 
+    /* for small screens to fix being too close to the right */
+    box-sizing: border-box;
 }
+
 /* Contact Page End */
