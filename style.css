@@ -355,5 +355,21 @@ h3 {
 }
 /* Sub-Header End */
 
+/* About Body Content Start */
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img {
+    width: 100%;
+    
+}
+/* About Body Content End */
 
 /* About Page End */
